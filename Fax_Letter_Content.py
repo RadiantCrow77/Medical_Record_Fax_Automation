@@ -64,6 +64,13 @@ print_body = (
 print(print_body)
 
 # PCP Records
+# Read from a file, like Disclaimer
+pcp_path = base_dir / "PCP.txt"
+
+with open(pcp_path, 'r') as file: # ... use from txt file
+    pcp = file.read()
+# pcp_request = ("\nWithin the last year:\n- progress/office notes\n- EKGs\n- any other cardiac imaging/testing/diagnostics\n- procedure notes\n- imaging\nMost Recent:\n- Labs (to include, if available: CBC, CMP, Mg, NT-proBNP, Lipids, Thyroid))
+# ")
 
 # PCP Records - New Pt (Referred to Us)
 
@@ -80,7 +87,7 @@ print(print_body)
 
 # FILE OUTPUT
 # References output_path from "C. Closing Lines"
-# Create /requests folder
+# Create /requests folder if does not exist
 requests_dir = base_dir / "requests"
 requests_dir.mkdir(exist_ok=True)
 
