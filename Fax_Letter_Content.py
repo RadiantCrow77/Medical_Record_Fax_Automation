@@ -80,7 +80,8 @@ with open(pcp_path, 'r') as file: # ... use from txt file
 
 # Records s/p Referral (that we sent)
 
-# 2. Send a RECORD RESPONSE (Outgoing Faxes / Record Fulfillment)
+# 2. Send a RECORD RESPONSE (Outgoing Faxes / Record Fulfillment) 
+# Make a var for pt last name INITIAL, modify the print_body!!
 
 # 3. Send a CARDIAC CLEARANCE FORM
 
