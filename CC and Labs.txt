@@ -1,0 +1,10 @@
+CC:
+Hello, 
+
+Attached you will find CC'ed Note (**) for mutual patient, *.
+
+--
+
+LABS:
+Hello, I am writing to request the following records, for mutual patient *** (DOB: ***):
+Most recent labs, which may include (CBC, CMP, Mg, NT-proBNP, Lipid, TSH, T4)
